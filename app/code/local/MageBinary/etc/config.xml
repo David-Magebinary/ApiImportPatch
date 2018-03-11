@@ -1,0 +1,28 @@
+<config>
+    <modules>
+        <MageBinary_ApiImportPatch>
+            <version>0.1.0</version>
+        </MageBinary_ApiImportPatch>
+    </modules>
+    <global>
+        <models>
+            <MageBinary_ApiImportPatch>
+                <class>MageBinary_ApiImportPatch_Model</class>
+            </MageBinary_ApiImportPatch>
+
+            <api_import>
+                <rewrite>
+                    <import>MageBinary_ApiImportPatch_Model_Import</import>
+                    <import_api>MageBinary_ApiImportPatch_Model_Import_Api</import_api>
+                    <import_entity_customer>MageBinary_ApiImportPatch_Model_Import_Entity_Customer</import_entity_customer>
+                </rewrite>
+            </api_import>
+
+            <api_import_resource>
+                <rewrite>
+                    <import_data>MageBinary_ApiImportPatch_Model_Resource_Import_Data</import_data>
+                </rewrite>
+            </api_import_resource>
+        </models>
+    </global>
+</config>

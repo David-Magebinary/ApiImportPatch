@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageBinary_ApiImportPatch>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Danslo_ApiImport />
+                <Mage_ImportExport />
+            </depends>
+        </MageBinary_ApiImportPatch>
+    </modules>
+</config>
